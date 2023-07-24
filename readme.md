@@ -13,6 +13,6 @@ This just removes the stupid X on the site for a the good ol twitter logo :D
 
 # Other branches
 
-## (Declutter)[https://github.com/Barnold8/TwitX/tree/declutter]
+## [Declutter](https://github.com/Barnold8/TwitX/tree/declutter)
 
 This branch's aim is to remove some annoying navigation elements
