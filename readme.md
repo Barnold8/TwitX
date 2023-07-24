@@ -10,3 +10,9 @@ This just removes the stupid X on the site for a the good ol twitter logo :D
 3.  click "load unpacked"
 4.  click the twitX folder you cloned
 5.  enjoy the old logo
+
+# Other branches
+
+## (Declutter)[https://github.com/Barnold8/TwitX/tree/declutter]
+
+This branch's aim is to remove some annoying navigation elements
