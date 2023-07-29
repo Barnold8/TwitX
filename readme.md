@@ -1,6 +1,9 @@
 # TwitX
 
-This just removes the stupid X on the site for a the good ol twitter logo :D
+This chrome extension will:
+    * Change the **'X'** logo back to the twitter bird
+    * Change the Tab titles contents that contain **'X'** to **'Twitter'**
+    * Change the **'Post'** button to **'Tweet'** (if its ever changed)
 
 
 # How to install
