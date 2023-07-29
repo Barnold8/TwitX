@@ -1,9 +1,10 @@
 # TwitX
 
 This chrome extension will:
-    * Change the **'X'** logo back to the twitter bird
-    * Change the Tab titles contents that contain **'X'** to **'Twitter'**
-    * Change the **'Post'** button to **'Tweet'** (if its ever changed)
+
+* Change the **'X'** logo back to the twitter bird
+* Change the Tab titles contents that contain **'X'** to **'Twitter'**
+* Change the **'Post'** button to **'Tweet'** (if its ever changed)
 
 
 # How to install
