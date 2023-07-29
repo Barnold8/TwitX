@@ -1,6 +1,7 @@
 # TwitX
 
 This chrome extension will:
+
     * Change the **'X'** logo back to the twitter bird
     * Change the Tab titles contents that contain **'X'** to **'Twitter'**
     * Remove unnecessary navigation options from the sidebar like 'Verified' and 'Communities'
