@@ -2,6 +2,7 @@
 addEventListener("load", (event) => {
 
     let title_observer = new MutationObserver(function(mutations){
+
         document.title = (function(){
             return (document.title.includes("/") ? document.title.split("/")[0] + "/ Twitter": "Twitter")
         }())
@@ -25,7 +26,7 @@ addEventListener("load", (event) => {
     title_observer.observe( document.head, {
         childList: true,
         attributes: true,
-        // characterData: true, // twitter is very persistent about their stupid verified element
+        // characterData: true,
         // subtree: true,
         // attributeOldValue: true,
         // characterDataOldValue: true
