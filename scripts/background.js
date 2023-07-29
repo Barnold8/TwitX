@@ -5,11 +5,6 @@ addEventListener("load", (event) => {
         document.title = (function(){
             return (document.title.includes("/") ? document.title.split("/")[0] + "/ Twitter": "Twitter")
         }())
-    
-    })
-
-
-    let mo = new MutationObserver(function(mutations){
         badLabels = ["Lists","Communities","Verified"]
 
         document.querySelector('link[rel*="icon"]').href = '../images/icon-16.ico'
@@ -26,41 +21,15 @@ addEventListener("load", (event) => {
             document.querySelector("[aria-labelledby]").querySelectorAll("svg")[1].innerHTML = twitter
 
         }catch(ignore){}
-
-        title_observer.observe( document.head, {
-            childList: true,
-            attributes: true,
-            // characterData: true, // twitter is very persistent about their stupid verified element
-            // subtree: true,
-            // attributeOldValue: true,
-            // characterDataOldValue: true
-        });
     })
 
-    target = document.querySelector("[role=main]")
-
-
-    
-    mo.observe(document.body, {
+    title_observer.observe( document.head, {
         childList: true,
-        // attributes: true,
+        attributes: true,
         // characterData: true, // twitter is very persistent about their stupid verified element
-        // // subtree: true,
+        // subtree: true,
         // attributeOldValue: true,
         // characterDataOldValue: true
     });
-
-    // getElementByTagName("title"),
-
-
-
-
-    try{
-
-    }
-    catch(e){
-
-    }
-
 
 });
