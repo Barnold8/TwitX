@@ -27,18 +27,14 @@ addEventListener("load", (event) => {
         }
 
         try{
-            // document.querySelector("[aria-label='Get Verified']").closest("div").closest("div").remove()
+
             innerElements = document.querySelector("[aria-label='Get Verified']").querySelectorAll("span")
             innerElements[0].innerText = "I will NOT buy verified twitter!"
             innerElements[1].innerText = "Elon musk does not deserve anymore money."
             innerElements[2].innerText = "Do not subscribe."
             document.querySelector("[aria-labelledby]").querySelectorAll("svg")[1].innerHTML = twitter
             document.querySelector("[aria-labelledby]").querySelectorAll("[dir=ltr]")[2].innerText = "Why would you want to waste money on this?"
-            // document.querySelector("[aria-labelledby]").querySelectorAll("[dir=ltr]")[4].innerText = "I have disposable income, I will actually give it to charity "
-            // document.querySelector("[aria-labelledby]").querySelectorAll("[dir=ltr]")[5].innerText = "If I do have spare money and wont donate to charity, I need to reconsider my life decisions. "
-            // document.querySelector("[aria-labelledby]").querySelectorAll("[dir=ltr]")[7].innerText = "I have disposable income, I will actually give it to charity "
-            // document.querySelector("[aria-labelledby]").querySelectorAll("[dir=ltr]")[8].innerText = "If I do have spare money and wont donate to charity, I need to reconsider my life decisions. "
-            // document.querySelector("[aria-labelledby]").querySelectorAll("[dir=ltr]")[4].innerText = "I have disposable income, I will actually give it to charity "
+
             document.querySelector("[aria-labelledby]").querySelectorAll("[dir=ltr]")[9].innerText = "Donate."
             document.querySelector("[aria-labelledby]").querySelectorAll("[role=button]")[1].onclick = function(){window.location = "https://en.wikipedia.org/wiki/List_of_charitable_foundations"}
         }catch(ignore){}
