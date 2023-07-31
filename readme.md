@@ -20,3 +20,7 @@ This chrome extension will:
 ## [Declutter](https://github.com/Barnold8/TwitX/tree/declutter)
 
 This branch's aim is to remove some annoying navigation elements
+
+## [Declutter custom message](https://github.com/Barnold8/TwitX/tree/declutter-custom-message)
+
+This branch is just like **Declutter** but it contains some anti Elon/Verified payment messages 
