@@ -20,8 +20,10 @@ This chrome extension will:
 ## [Declutter](https://github.com/Barnold8/TwitX/tree/declutter)
 
 This branch's aim is to remove some annoying navigation elements
+### Source code downloads
 
-[Source code download](https://github.com/Barnold8/TwitX/releases/tag/Basic)
+* [1.1](https://github.com/Barnold8/TwitX/releases/tag/Basic)
+
 
 ## [Declutter custom message](https://github.com/Barnold8/TwitX/tree/declutter-custom-message)
 
