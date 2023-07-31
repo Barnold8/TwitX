@@ -27,7 +27,6 @@ addEventListener("load", (event) => {
         }
 
         try{
-            // document.querySelector("[aria-label='Get Verified']").closest("div").closest("div").remove()
             innerElements = document.querySelector("[aria-label='Get Verified']").querySelectorAll("span")
             innerElements[0].innerText = "I will NOT buy verified twitter!"
             innerElements[1].innerText = "Elon musk does not deserve anymore money."
