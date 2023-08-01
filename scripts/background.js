@@ -2,6 +2,11 @@
 addEventListener("load", (event) => {
 
     let title_observer = new MutationObserver(function(mutations){
+        
+        $("span:contains('Post')").each(function(){
+            this.innerText = "Tweet"
+        })
+    
         document.title = (function(){
             return (document.title.includes("/") ? document.title.split("/")[0] + "/ Twitter": "Twitter")
         }())

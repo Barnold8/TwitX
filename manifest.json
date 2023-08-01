@@ -14,7 +14,7 @@
 
       {
         "matches": ["*://*.twitter.com/*","*://*.x.com/*"], 
-        "js": ["scripts/background.js"]
+        "js": ["scripts/jquery-3.7.0.min.js","scripts/background.js"]
       }
 
     ],
