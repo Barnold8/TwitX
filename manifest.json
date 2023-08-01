@@ -27,9 +27,6 @@
         }
       },
 
-
       "permissions": ["activeTab","scripting","cookies"]
-
-      
 
 }
