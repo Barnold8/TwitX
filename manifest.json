@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "TwitX ",
     "description": "Removes that ugly 'X' https://github.com/Barnold8/TwitX/tree/main ",
-    "version": "1.1",
+    "version": "1.2",
     "icons": {
       "16": "images/icon-16.png",
       "32": "images/icon-32.png",
