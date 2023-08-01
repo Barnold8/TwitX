@@ -9,7 +9,7 @@ This chrome extension will:
 
 # How to install
 
-1.  clone this repo
+1.  clone this repo or go to [releases](https://github.com/Barnold8/TwitX/releases) and download a release of your choice
 2.  put "chrome://extensions" in the web bar
 3.  click "load unpacked"
 4.  click the twitX folder you cloned
