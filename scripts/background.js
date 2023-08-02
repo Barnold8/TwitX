@@ -22,6 +22,14 @@ addEventListener("load", (event) => {
             return (document.title.includes("/") ? document.title.split("/")[0] + "/ Twitter": "Twitter")
         }())
 
+        $("span:contains('Post')").each(function(){
+            this.innerText = "Tweet"
+        })
+
+        $("span:contains('Ad')").each(function(){
+            this.innerText = "Sponsored"
+        })
+
         if(!(document.querySelectorAll("[aria-label=Twitter]")[0] == undefined)){
             document.querySelectorAll("[aria-label=Twitter]")[0].querySelector("svg").innerHTML = twitter
         }
