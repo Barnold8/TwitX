@@ -5,7 +5,7 @@ This chrome extension will:
 * Change the **'X'** logo back to the twitter bird
 * Change the Tab titles contents that contain **'X'** to **'Twitter'**
 * Change the **'Post'** button to **'Tweet'**
-* Change "Ad" to Sponsored
+* Change **"Ad"** to **"Sponsored"**
 
 
 # How to install
