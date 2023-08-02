@@ -22,6 +22,11 @@ addEventListener("load", (event) => {
             this.innerText = "Tweet"
         })
 
+        $("span:contains('Ad')").each(function(){
+            this.innerText = "Sponsored"
+        })
+    
+
         document.title = (function(){
             return (document.title.includes("/") ? document.title.split("/")[0] + "/ Twitter": "Twitter")
         }())
@@ -31,10 +36,8 @@ addEventListener("load", (event) => {
         }
 
         try{
-            innerElements = document.querySelector("[aria-label='Get Verified']").querySelectorAll("span")
-            innerElements[0].innerText = "I will NOT buy verified twitter!"
-            innerElements[1].innerText = "Elon musk does not deserve anymore money."
-            innerElements[2].innerText = "Do not subscribe."
+            innerElements = document.querySelector("[aria-label='Get Verified']").remove()
+
             document.querySelector("[aria-labelledby]").querySelectorAll("svg")[1].innerHTML = twitter
         }catch(ignore){}
 
